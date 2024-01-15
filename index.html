@@ -36,7 +36,7 @@
           <button style="width:100% ;" class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Blocks
           </button>
-          <ul style="width: 1500px;" class="dropdown-menu dropdown-menu-dark  text-center  bg-warning m-auto">
+          <ul style="width: 100%; " class="dropdown-menu dropdown-menu-dark  text-center  bg-warning mx-auto">
             <li><a class="dropdown-item text-dark" href="#">Images & Videos</a></li>
             <li><a class="dropdown-item text-dark" href="#">Shops</a></li>
             <li><a class="dropdown-item text-dark" href="#">Features</a></li>
@@ -56,7 +56,7 @@
           <button style="width:100% ;" class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Demo Pages
           </button>
-          <ul style="width: 1500px;" class="dropdown-menu dropdown-menu-dark  text-center  bg-warning m-auto">
+          <ul style="width: 100%;" class="dropdown-menu dropdown-menu-dark  text-center  bg-warning mx-auto">
             <li><a c class="dropdown-item text-dark" href="#">Page 1</a></li>
             <li><a class="dropdown-item text-dark" href="#">Page 2</a></li>
             <li><a class="dropdown-item text-dark" href="#">Page 3</a></li>
@@ -389,9 +389,10 @@
   margin-left: 25px;
 }
 
-.dropdown-item{margin-left: -50px;}
+.dropdown-item{margin-left: 0px;}
 .dropdown-item:hover{
   background-color: white;
+  margin-left: 0px;
 }
   .nav-link{
     text-align: center;
@@ -428,13 +429,16 @@
 
 }
 #fghfgh img:hover{
-  -webkit-transform: scale(1.3);
+  -webkit-transform: scale(1.);
 	transform: scale(1.2);
 }
 .cvbn{
   position: absolute;
   margin-top: 120px;
 
+}
+.dropdown-menu{
+  margin-left: 200px;
 }
 </style>
 
